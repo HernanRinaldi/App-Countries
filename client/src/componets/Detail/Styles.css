@@ -1,0 +1,97 @@
+/*---------------STYLES DETAIL-----------------*/
+.container-activity {
+  background-image: linear-gradient(120deg, #e72e2e, #e4c996, #e72e2e);
+  border-radius: 14px;
+}
+
+.card-activity {
+  background-image: linear-gradient(120deg, #e65050, #e7a11f, #e65050);
+  border-radius: 14px;
+  margin-bottom: 8px;
+  color: #f0e2e2;
+}
+
+.card-activity:hover {
+  background-image: linear-gradient(120deg, #e6d369, #e65050, #e6d369);
+  border-radius: 14px;
+  margin-bottom: 8px;
+  color: #f0e2e2;
+}
+.grid-container {
+  grid-template-columns: 50% 50%;
+}
+
+.h3 {
+  color: rgb(8, 43, 245);
+  background-color: #f0e2e2;
+  border-radius: 20px;
+  margin: 20px 150px;
+}
+.p {
+  color: rgb(248, 16, 16);
+  background-color: #f0e2e2;
+  border-radius: 20px;
+  margin: 20px 100px;
+  height: 20px;
+  text-decoration: none;
+}
+
+.p:hover {
+  color: white;
+  background-color: rgb(248, 16, 16);
+  border-radius: 20px;
+  margin: 20px 100px;
+  height: 25px;
+  margin: 20px 140px;
+  transition: 0.3s;
+}
+/*-------------------BUTTON DETAIL---------------------*/
+.button-detail {
+  --color: #2dac4d;
+  font-family: inherit;
+  display: inline-block;
+  width: 20em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 1.5px solid var(--color);
+  transition: color 0.8s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 18px;
+  font-weight: 200;
+  color: var(--color);
+  cursor: pointer;
+}
+
+.button-detail:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.button-detail:hover {
+  color: #fff;
+}
+
+.button-detail:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.button-detail:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.button-detail:active:before {
+  background: #3a0ca3;
+  transition: background 3s;
+}

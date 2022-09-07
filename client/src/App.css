@@ -1,0 +1,118 @@
+.App {/*------------DIV CONTAINER BODY---------------*/
+  text-align: center;
+  
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*-----------------estilo de carta------*/
+/*----------------css--------------------*/
+
+/* * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: gray;
+  color: black;
+  font-family: helvetica, sans-serif;
+}
+
+main {
+  background-color: #EDFDED;
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100vw;
+}
+
+h2 {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin:  0px 10px;
+}
+
+.card {
+  width: 320px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
+}
+.card > img {
+  border-radius: 2px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.card h3 {
+  color: purple;
+}
+
+.card p {
+  color: #757575;
+  line-height: 1.5;
+  padding-top: 10px;
+} */
+
+/*-------------html ------------------*/
+
+/* <main>
+  <h2>Cafes in Annerley</h2>
+  <section class="card-row">
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="exposed brick wall in a hipster cafe">
+      <h3>My local hipster cafe</h3>
+      <p>My local cafe. I highly recommend a visit to the local hipster cafe, Two Slopes. Even though over 50's aren't the target demographic of this exposed-brick wonderland, the excellent coffee, friendly staff, and quiet, laid-back music, make it an excellent choice.</p>
+    </article>
+    
+    </section>
+    </main>
+*/
